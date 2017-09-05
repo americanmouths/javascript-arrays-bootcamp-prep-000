@@ -5,11 +5,7 @@ var chocolateBars = [
   'skittles'
 ]
 
-function addElementToBeginningOfArray(chocolateBars, 'snickers') {
-  chocolateBars.push('snickers')
-  return chocolateBars
-}
-
-function destructivelyAddElementToBeginningOfArray(array, element) {
-
+function addElementToBeginningOfArray(array, 'element') {
+  array.push('element')
+  return array
 }
